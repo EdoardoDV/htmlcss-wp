@@ -1,9 +1,12 @@
+/* INIZIO RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* FINE RESET */
 
+/* INIZIO STILI GENERICI */
 body {
   background: url(../img/pattern.png);
   background-repeat: repeat;
@@ -17,6 +20,9 @@ header {
   width: 100%;
   z-index: 1;
 }
+/* FINE STILI GENERICI */
+
+/* Inizio Stili Brand */
 .logo {
   top: 0;
   right:0;
@@ -33,6 +39,9 @@ header {
   width: 100%;
   border: 15px solid white;
 }
+/* Fine Stili Brand */
+
+/* Inizio Stili Menu */
 .menu {
   display: inline-block;
   color: white;
@@ -41,8 +50,6 @@ header {
   width: 100%;
   background: grey;
 }
-
-
 .menu .list-main li{
   display: inline-block;
   list-style: none;
@@ -50,25 +57,26 @@ header {
   right: 0;
   padding: 25px 2%;
 }
-
 .menu li:hover {
   background: lightgrey;
   color: black;
   padding: solid
 }
+/* Fine Stili Menu */
 
 main {
   width: 100%;
   margin: 30px 0;
   z-index:0;
 }
-
+/* Inizio Stili Colonne */
 .col {
   display: inline-table;
   width: 25%;
   background: white;
   border-radius: 5px;
 }
+
 .col-left h1 {
   margin-bottom: 25px;
 }
@@ -80,6 +88,7 @@ main {
   margin-bottom: 4%;
   padding: 2%;
 }
+
 .col-center{
   text-align: left;
   width: 40%;
@@ -92,9 +101,11 @@ main {
 .col-center p {
   padding: 2%;
 }
+
 .col-right {
   background: none;
 }
+
 .row {
   height: 30%;
   margin-bottom: 3%;
@@ -109,7 +120,9 @@ main {
   padding: 2% 0;
 }
 
+/* Fine Stili Colonne */
 
+/* Inizio Stili Footer */
 footer {
   color: lightgrey;
   height: 100px;
@@ -122,3 +135,4 @@ footer .icons .fab {
   text-align: center;
   font-size: 50px;
 }
+/* Fine Stili Footer */
