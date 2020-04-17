@@ -36,6 +36,8 @@ header {
 }
 .menu {
   display: inline-block;
+  color: white;
+  font-weight: bold;
   height: 25%;
   width: 100%;
   background: grey;
@@ -47,45 +49,75 @@ header {
   top: 0;
   right: 0;
   transform: translate(0%, 100%);
-  padding: 0 8%;
+  padding: 0 2%;
 }
 .menu li:hover {
   background: lightgrey;
+  color: black;
 }
 
 main {
-  height: 1200px;
   width: 100%;
   margin: 30px 0;
-  background: blue;
   z-index:0;
 }
 
 .col {
-  display: inline-block;
-  height:200px;
+  display: inline-table;
   width: 25%;
   background: white;
   border-radius: 5px;
-
+}
+.col-left h1 {
+  margin-bottom: 25px;
+}
+.col-left ul li{
+  color: green;
+  font-weight:bold;
+  list-style: none;
+  text-align: left;
+  margin-bottom: 4%;
+  padding: 2%;
 }
 .col-center{
+  text-align: left;
   width: 40%;
   margin: 0 3%;
+}
+.col-center h1 {
+  padding: 0 2%;
+  margin-bottom: 25px;
+}
+.col-center p {
+  padding: 2%;
+}
+.col-right {
+  background: none;
 }
 .row {
   height: 30%;
   margin-bottom: 3%;
   border-radius: 5px;
-  background: lightgrey;
+  background: white;
+  padding: 0 2%;
+}
+.row h1 {
+  margin-bottom: 25px;
+}
+.row p {
+  padding: 2% 0;
 }
 
 
-
 footer {
-  height: 200px;
+  color: lightgrey;
+  height: 100px;
   width: 100%;
   margin-top: 30px;
-  background: red;
-  z-index: 1;
+  background: white;
+}
+footer i {
+  color: red;
+  width: 50px;
+  height: 50px;
 }
