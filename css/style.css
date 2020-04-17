@@ -48,8 +48,9 @@ header {
   list-style: none;
   top: 0;
   right: 0;
-  padding: 1.58% 2%;
+  padding: 25px 2%;
 }
+
 .menu li:hover {
   background: lightgrey;
   color: black;
@@ -116,10 +117,8 @@ footer {
   margin-top: 30px;
   background: white;
 }
-footer i {
-  display: inline;
+footer .icons .fab {
   color: lightgrey;
   text-align: center;
-  width: 500px;
-  height: 500px;
+  font-size: 50px;
 }
